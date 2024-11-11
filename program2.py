@@ -1,6 +1,6 @@
 class Solution(object):
     def __init__(self):
-        self.d = {
+        self.conversions = {
             'I': 1,
             'V': 5,
             'X': 10,
