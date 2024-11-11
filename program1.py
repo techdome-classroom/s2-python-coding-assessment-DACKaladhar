@@ -5,7 +5,7 @@ class Solution(object):
             if e in '[{(':
                 stack.append(e)
             elif e == ')':
-                
+                if stack and stack[-1] == 
 
 
 
