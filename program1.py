@@ -7,7 +7,7 @@ class Solution(object):
             else:
                 if not stack:
                     return False
-                elif (e == ')' and stack[-1] != '(') or (e == ']' and stack[-1] != '('):
+                elif (e == ')' and stack[-1] != '(') or (e == ']' and stack[-1] != '['):
                     
 
 
