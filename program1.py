@@ -4,7 +4,8 @@ class Solution(object):
         for e in s:
             if e in '[{(':
                 stack.append(e)
-            elif 
+            elif e == ')':
+                
 
 
 
