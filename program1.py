@@ -5,7 +5,10 @@ class Solution(object):
             if e in '[{(':
                 stack.append(e)
             else:
-                if not stack or stack[-1] != '(':
+                if not stack:
+                    return False
+                else:
+                    or stack[-1] != '(':
                     
 
 
