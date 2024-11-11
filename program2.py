@@ -1,5 +1,6 @@
 class Solution(object):
     def __init__(self):
+        # define conversions here so that it can be used everywhere
         self.conversions = {
             'I': 1,
             'V': 5,
