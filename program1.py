@@ -9,4 +9,9 @@ class Solution(object):
                     return False
                 elif (e == ')' and stack[-1] != '(') or (e == ']' and stack[-1] != '[') or (e == '}' and stack[-1] != '{'):
                     return False
-                
+                else:
+                    stack.pop()
+        
+        if stack:
+            return False
+        return True
