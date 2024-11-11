@@ -15,7 +15,7 @@ class Solution(object):
         prev_value = 0
         
         for char in reversed(s):
-            value = self.d[char]
+            value = self.conversions[char]
             if value < prev_value:
                 total -= value
             else:
