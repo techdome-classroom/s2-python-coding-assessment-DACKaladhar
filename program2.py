@@ -19,7 +19,7 @@ class Solution(object):
             value = self.conversions[char]
             if value < prevValue:  # we must subtract in these cases IV- is the example.
                 total -= value
-            else:
+            else:  # we can add example VI
                 total += value
             prevValue = value
         
