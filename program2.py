@@ -17,10 +17,10 @@ class Solution(object):
         
         for char in reversed(s):
             value = self.conversions[char]
-            if value < prev_value:
+            if value < prevValue:
                 total -= value
             else:
                 total += value
-            prev_value = value
+            prevValue = value
         
         return total
