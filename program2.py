@@ -12,15 +12,4 @@ class Solution(object):
         }
 
     def romanToInt(self, s):
-        total = 0
-        prevValue = 0
-        
-        for char in reversed(s):
-            value = self.conversions[char]
-            if value < prevValue:  # we must subtract in these cases IV- is the example.
-                total -= value
-            else:  # we can add example VI
-                total += value
-            prevValue = value
-        
-        return total
+        pass
