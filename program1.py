@@ -8,17 +8,4 @@ class Solution(object):
                 if not stack:
                     return False
                 elif (e == ')' and stack[-1] != '(') or (e == ']' and stack[-1] != '['):
-                    
-
-
-
-
-
-
-
-    
-
-
-
-  
-
+                    return False
