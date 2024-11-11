@@ -12,7 +12,7 @@ class Solution(object):
 
     def romanToInt(self, s):
         total = 0
-        prev_value = 0
+        prevValue = 0
         
         for char in reversed(s):
             value = self.conversions[char]
