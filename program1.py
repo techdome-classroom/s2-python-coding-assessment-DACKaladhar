@@ -4,6 +4,7 @@ class Solution(object):
         for e in s:
             if e == '[':
                 stack.append(e)
+            elif 
 
 
 
